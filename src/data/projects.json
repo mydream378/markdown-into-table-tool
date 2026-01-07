@@ -1,0 +1,36 @@
+[
+  {
+    "id": "project-1",
+    "title": "Advanced fMRI Analysis Pipeline Development",
+    "description": "Developing a comprehensive pipeline for preprocessing and analyzing functional MRI data with focus on motion correction, spatial normalization, and advanced statistical modeling.",
+    "status": "ongoing",
+    "startDate": "2023-01",
+    "collaborators": ["Dr. Jane Smith", "Prof. John Doe"],
+    "funding": "NIH R01 Grant",
+    "methodology": "Combining deep learning approaches with traditional signal processing techniques",
+    "expectedOutcomes": "Open-source software package for the neuroimaging community"
+  },
+  {
+    "id": "project-2",
+    "title": "Machine Learning for Early Alzheimer's Detection",
+    "description": "Using machine learning algorithms on multimodal neuroimaging data to identify early biomarkers of Alzheimer's disease progression.",
+    "status": "ongoing",
+    "startDate": "2022-06",
+    "collaborators": ["Dr. Maria Garcia", "Prof. Robert Johnson"],
+    "funding": "Alzheimer's Association Research Grant",
+    "methodology": "Ensemble learning with structural and functional MRI features",
+    "expectedOutcomes": "Clinical decision support tool for early diagnosis"
+  },
+  {
+    "id": "project-3",
+    "title": "Resting-State Network Connectivity Analysis",
+    "description": "Investigating functional connectivity patterns in resting-state fMRI data across different age groups and clinical populations.",
+    "status": "completed",
+    "startDate": "2021-09",
+    "endDate": "2023-08",
+    "collaborators": ["Dr. Sarah Wilson"],
+    "funding": "Internal University Grant",
+    "methodology": "Graph theory analysis of functional connectivity matrices",
+    "expectedOutcomes": "Published framework for network-based analysis"
+  }
+]

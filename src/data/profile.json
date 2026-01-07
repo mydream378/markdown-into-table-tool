@@ -1,0 +1,34 @@
+{
+  "name": "Your Name",
+  "title": "PhD Candidate in Neuroscience",
+  "bio": "I am a passionate researcher focused on advancing our understanding of the human brain through cutting-edge neuroimaging techniques. My work combines computational approaches with advanced imaging methodologies to unravel the complexities of neural networks and their role in cognition and disease.",
+  "photo": "/images/profile-photo.jpg",
+  "contact": {
+    "email": "your.email@university.edu",
+    "orcid": "0000-0000-0000-0000",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "twitter": "https://twitter.com/yourhandle"
+  },
+  "researchInterests": [
+    "Neuroimaging and Brain Mapping",
+    "Computational Neuroscience",
+    "Machine Learning in Medical Imaging",
+    "Functional Connectivity Analysis",
+    "Neurodegenerative Diseases"
+  ],
+  "education": [
+    {
+      "degree": "PhD in Neuroscience",
+      "institution": "University Name",
+      "year": "2020 - Present",
+      "description": "Focus on advanced neuroimaging techniques and computational modeling"
+    },
+    {
+      "degree": "MSc in Biomedical Engineering",
+      "institution": "University Name",
+      "year": "2018 - 2020",
+      "description": "Specialization in medical imaging and signal processing"
+    }
+  ]
+}

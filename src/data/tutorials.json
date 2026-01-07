@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tutorial-1",
+    "title": "Introduction to fMRI Preprocessing",
+    "description": "A comprehensive guide to preprocessing functional MRI data using popular neuroimaging software packages.",
+    "difficulty": "beginner",
+    "estimatedTime": "2 hours",
+    "prerequisites": ["Basic understanding of MRI principles", "Familiarity with command line interface"],
+    "sections": [
+      {
+        "title": "Data Organization and Quality Control",
+        "content": "Proper data organization is crucial for efficient preprocessing. Create a BIDS-compliant directory structure...",
+        "codeExamples": [
+          {
+            "language": "bash",
+            "code": "# Create BIDS directory structure\nmkdir -p bids_dataset/sub-01/func\nmkdir -p bids_dataset/sub-01/anat"
+          }
+        ]
+      },
+      {
+        "title": "Slice Timing Correction",
+        "content": "Slice timing correction accounts for the temporal differences in slice acquisition during fMRI scanning...",
+        "codeExamples": [
+          {
+            "language": "python",
+            "code": "import nibabel as nib\nfrom nilearn import image\n\n# Load fMRI data\nfmri_img = nib.load('sub-01_task-rest_bold.nii.gz')"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tutorial-2",
+    "title": "Functional Connectivity Analysis with Python",
+    "description": "Learn how to perform functional connectivity analysis using Python libraries like Nilearn and Nibabel.",
+    "difficulty": "intermediate",
+    "estimatedTime": "3 hours",
+    "prerequisites": ["Python programming experience", "Basic fMRI knowledge", "Completed preprocessing tutorial"],
+    "sections": [
+      {
+        "title": "Loading and Preparing Data",
+        "content": "We'll start by loading preprocessed fMRI data and preparing it for connectivity analysis...",
+        "codeExamples": [
+          {
+            "language": "python",
+            "code": "import numpy as np\nimport nibabel as nib\nfrom nilearn import datasets\n\n# Load atlas for region definition\natlas = datasets.fetch_atlas_harvard_oxford('cort-maxprob-thr25-2mm')"
+          }
+        ]
+      },
+      {
+        "title": "Correlation Matrix Calculation",
+        "content": "Calculate functional connectivity using Pearson correlation between time series...",
+        "codeExamples": [
+          {
+            "language": "python",
+            "code": "# Calculate correlation matrix\ncorrelation_matrix = np.corrcoef(time_series.T)\n\n# Visualize connectivity matrix\nimport matplotlib.pyplot as plt\nplt.imshow(correlation_matrix, cmap='coolwarm')"
+          }
+        ]
+      }
+    ]
+  }
+]
