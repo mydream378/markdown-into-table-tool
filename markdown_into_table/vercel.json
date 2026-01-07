@@ -1,12 +1,12 @@
 {
-  "name": "markdown-into-table-tool",
+  "name": "academic-webpage-mengfei",
   "version": 2,
   "builds": [
     {
-      "src": "markdown_into_table/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "markdown_into_table/dist"
+        "distDir": "dist"
       }
     }
   ],
